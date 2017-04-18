@@ -1,8 +1,8 @@
-#Deep Q Learning for ATARI using Tensorflow
+# Deep Q Learning for ATARI using Tensorflow
 
 (Version 1.0, Last updated :2016.03.17)
 
-###1. Introduction
+### 1. Introduction
 
 This is tensorflow implementation of 'Playing Atari with Deep Reinforcement Learning'.
 
@@ -20,7 +20,7 @@ A3C : https://github.com/gliese581gg/A3C_tensorflow
 
 Batch-A3C : https://github.com/gliese581gg/batch-A3C_tensorflow
 
-###2. Usage
+### 2. Usage
 
     python main_multithread.py (args)
 
@@ -33,20 +33,20 @@ Batch-A3C : https://github.com/gliese581gg/batch-A3C_tensorflow
     -db_size (integer) : size of replay memory. Take 8Gb for size 1,000,000 (default : 1,000,000)
     -only_eval (y or n) : doing only evaluation without training if set to y (default : n)
 
-###3. Testing with pretrained networks
+### 3. Testing with pretrained networks
 
     python main_multithread.py -network_type (nips or nature) -weight pretrained/(nips or nature)_pretrained -only_eval y
 
-###4. Requirements:
+### 4. Requirements:
 
 - Tensorflow
 - opencv2
 - Arcade Learning Environment ( https://github.com/mgbellemare/Arcade-Learning-Environment )
 
-###5. Video
+### 5. Video
 
 https://www.youtube.com/watch?v=GACcbfUaHwc
 
-###6. Changelog
+### 6. Changelog
 
 -2016.03.17 : First upload!
